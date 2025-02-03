@@ -1,0 +1,114 @@
+h1 {
+    text-align: center;
+    background-color: orange;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 3em;
+            margin-top: 20%;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+        }
+
+body {
+        font-family: Arial, sans-serif;
+      }
+      .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+        margin-top: 20px;
+      }
+      .product-card {
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 15px;
+        width: 200px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+      .product-card:hover {
+        transform: translateY(-5px);
+      }
+      .product-card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      footer {
+        background-color: black;
+        padding: 30px 0;
+      }
+      footer .social-icons a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #555;
+      }
+      footer .social-icons a:hover {
+        color: #007bff;
+      }
+      .navbar-brand img {
+        width: 30px;
+        height: auto;
+      }
+
+      .hero-about{
+        background-image: url(https://www.wildkogel-arena.at/site/assets/files/2560/mountainbiken-sonnenaufgang.1200x630-sp.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hero-about p{
+        background: rgba(128, 128, 128, 0.462);
+        padding: 15px;
+        font-size: 30px;
+        font-weight: 700;
+      }
+
+
+      .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      
+        .info-block {
+          margin: 2rem 1rem;
+            background: rgba(0, 0, 0, 0.5); /* Напівпрозорий чорний фон */
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
